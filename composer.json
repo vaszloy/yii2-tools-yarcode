@@ -1,5 +1,5 @@
 {
-    "name": "yarcode/yii2-tools-yarcode",
+    "name": "vaszloy/yii2-tools-yarcode",
     "description": "Useful Yii2 components",
     "license": "MIT",
 	"type": "yii2-extension",
