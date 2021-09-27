@@ -16,12 +16,23 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php":">=5.4.0",
+        "php":">=7.3",
         "yiisoft/yii2": "^2",
-        "nesbot/carbon": "^1.9"
+        "nesbot/carbon": "~2.30"
     },
+    "config": {
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "YarCode\\Yii2\\": "./src"
