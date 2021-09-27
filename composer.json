@@ -16,7 +16,7 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php":">=7.3",
         "yiisoft/yii2": "^2",
