@@ -20,7 +20,7 @@
     "require": {
         "php":">=7.3",
         "yiisoft/yii2": "^2",
-        "nesbot/carbon": "~2.30"
+        "nesbot/carbon": "^2.0"
     },
     "config": {
         "fxp-asset": {
